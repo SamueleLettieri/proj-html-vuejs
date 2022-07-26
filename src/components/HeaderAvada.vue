@@ -2,6 +2,7 @@
   <header>
     <HeaderTop/>
     <HeaderCenter/>
+    <HeaderBottom/>
   </header>
 </template>
 
@@ -9,10 +10,12 @@
 
 import HeaderTop from './HeaderTop.vue';
 import HeaderCenter from './HeaderCenter.vue';
+import HeaderBottom from './HeaderBottom.vue';
 export default {
 components: {
-  HeaderTop,
-  HeaderCenter
+    HeaderTop,
+    HeaderCenter,
+    HeaderBottom
 }
 }
 </script>

@@ -1,15 +1,23 @@
 <template>
-  <div class="ms_jumbotron pt-4">
-    <div class="container d-flex justify-content-between">
-        <div><img src="../assets/img/avada-movers-logo.png" alt=""></div>
-        <div>
-            <ul class="d-inline-block">
-                <HeaderNav v-for="(item, index) in NavItem" :key="index" :item="item"/>
-            </ul>
-            <div class="d-inline-block ms_link"><a href="#">FREE QUOTE</a></div>
+  <section class="ms_jumbotron pt-4">
+    <div class="container ms_box">
+        <div class="d-flex justify-content-between">
+            <div><img src="../assets/img/avada-movers-logo.png" alt=""></div>
+            <div>
+                <ul class="d-inline-block">
+                    <HeaderNav v-for="(item, index) in NavItem" :key="index" :item="item"/>
+                </ul>
+                <div class="d-inline-block ms_box-link"><a class="ms_link" href="#">FREE QUOTE</a></div>
+            </div>
         </div>
-    </div>
-  </div>
+        <div class="d-flex flex-column justify-content-center align-items-center ms_box">
+            <h6>MOVING WITHOUT THE HASSLE</h6>
+            <h1>WE MAKE IT SIMPLE</h1>
+            <h6>PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h6>
+        </div>
+    </div>    
+
+  </section>
 </template>
 
 <script>
@@ -66,16 +74,17 @@ export default {
     height: 600px;
 }
 
-.ms_link{
-    margin-left: 20px;
-    a{
-        padding: 8px 20px;
-        background-color: #1975c0;
-        border-radius: 20px;
-        text-decoration: none;
-        color: white;
-        font-size: 13px;
-    }
+
+.ms_box{
+    height:90%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h6{
+    font-size: 12px;
 }
 
 </style>
