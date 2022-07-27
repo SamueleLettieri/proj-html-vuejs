@@ -1,26 +1,29 @@
 <template>
-<div class="ms_box text-center d-inline-block">
-
-</div>
+    <div class="ms_box text-center d-inline-block mt-5">
+        <div><img class="ms_box-img" :src="card.image" alt=""></div>
+        <h4 class="mt-4 fw-bold">{{card.name}}</h4>
+        <p class="mt-4">{{card.text}}</p>
+    </div>
 </template>
 
 <script>
 export default {
-
+    props:["card"]
 }
 </script>
 
 <style lang="scss" scoped>
 .ms_box{
-    width: 330px;
+    width: 350px;
     margin-left: 20px;
     margin-right: 20px;
 
 }
 
 .ms_box-img{
-    width: 300px;
-    border-bottom: 15px solid #f5f5f5;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 h4{

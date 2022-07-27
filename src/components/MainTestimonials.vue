@@ -4,8 +4,9 @@
         <h6 class="fw-bold">HAPPY CUSTOMERS</h6>
         <h1 class="fw-bold ms_title">Testimonials</h1>
         <div>
-            <CardsTestimonials/>
+            <CardsTestimonials v-for="(card ,index) in testimonials" :key="index" :card="card"/>
         </div>
+        <div class="ms_box-link mt-5"><a class="ms_link fw-bold" href="#">READ MORE TESTIMONIALS</a></div>
     </div>
   </section>
 </template>
@@ -21,19 +22,19 @@ export default {
         return{
             testimonials:[
                 {
-                    image: "../assets/img/avada-movers-johndoe-final.jpg",
+                    image: require("../assets/img/avada-movers-johndoe-final.jpg"),
                     name: "John Doe",
-                    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime."
+                    text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
                 {
-                    image: "../assets/img/avada-movers-janedoe-final.jpg",
+                    image: require("../assets/img/avada-movers-janedoe-final.jpg"),
                     name: "Jane Doe",
-                    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime."
+                    text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
                 {
-                    image: "../assets/img/avada-movers-johnsmith-final.jpg",
+                    image: require("../assets/img/avada-movers-johnsmith-final.jpg"),
                     name: "John Smith",
-                    text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime."
+                    text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
             ],
         }
