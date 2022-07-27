@@ -4,6 +4,7 @@
     <MainServiceSolution/>
     <MainTrasporto/>
     <MainTestimonials/>
+    <MainBottom/>
   </main>
 </template>
 
@@ -12,12 +13,14 @@ import MainTop from './MainTop.vue';
 import MainServiceSolution from './MainServiceSolution.vue';
 import MainTrasporto from './MainTrasporto.vue';
 import MainTestimonials from './MainTestimonials.vue';
+import MainBottom from './MainBottom.vue';
 export default {
     components: {
     MainTop,
     MainServiceSolution,
     MainTrasporto,
-    MainTestimonials
+    MainTestimonials,
+    MainBottom
 }
 }
 </script>
