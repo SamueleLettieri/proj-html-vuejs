@@ -1,5 +1,5 @@
 <template>
-    <li><a :href="item.url">{{item.items}}</a></li>
+    <li class="fw-bold"><a :href="item.url">{{item.items}}</a></li>
 </template>
 
 <script>

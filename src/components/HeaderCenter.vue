@@ -7,13 +7,13 @@
                 <ul class="d-inline-block">
                     <HeaderNav v-for="(item, index) in NavItem" :key="index" :item="item"/>
                 </ul>
-                <div class="d-inline-block ms_box-link"><a class="ms_link" href="#">FREE QUOTE</a></div>
+                <div class="d-inline-block ms_box-link fw-bold"><a class="ms_link" href="#">FREE QUOTE</a></div>
             </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center ms_box">
-            <h6>MOVING WITHOUT THE HASSLE</h6>
-            <h1>WE MAKE IT SIMPLE</h1>
-            <h6>PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h6>
+            <h6 class="fw-bold">MOVING WITHOUT THE HASSLE</h6>
+            <h1 class="fw-bold">WE MAKE IT SIMPLE</h1>
+            <h6 class="fw-bold">PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMER SATISFACTION</h6>
         </div>
     </div>    
 
@@ -85,6 +85,7 @@ h1{
 
 h6{
     font-size: 12px;
+    color: #93989b;
 }
 
 </style>
