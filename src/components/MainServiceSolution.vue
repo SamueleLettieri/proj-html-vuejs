@@ -21,21 +21,21 @@ export default {
         return{
             serviceSolutionCards:[
                 {
-                    imgag: require("../assets/img/avada-movers-serviceonephoto-final-400x255.jpg"),
+                    img: require("../assets/img/avada-movers-serviceonephoto-final-400x255.jpg"),
                     title: "Two man teams",
                     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime.",
                     href: "#",
                     button: "READ MORE",
                 },
                 {
-                    imgag: require("../assets/img/avada-movers-servicetwophoto-final-400x255.jpg"),
+                    img: require("../assets/img/avada-movers-servicetwophoto-final-400x255.jpg"),
                     title: "Two man teams",
                     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime.",
                     href: "#",
                     button: "READ MORE",
                 },
                 {
-                    imgag: require("../assets/img/avada-movers-servicethreephoto-final-400x255.jpg"),
+                    img: require("../assets/img/avada-movers-servicethreephoto-final-400x255.jpg"),
                     title: "Two man teams",
                     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem nobis quod itaque ut fugiat repellendus, cum ipsum corrupti dolor maxime.",
                     href: "#",
