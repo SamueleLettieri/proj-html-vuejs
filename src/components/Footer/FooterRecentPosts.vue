@@ -1,5 +1,5 @@
 <template>
-  <li class="mb-4"><a :href="linkPost.url"><span class="me-2">❯</span> {{linkPost.text}}</a></li>
+  <li class="mb-4"><a :href="linkPost.url" @click.prevent=""><span class="me-2">❯</span> {{linkPost.text}}</a></li>
 </template>
 
 <script>
@@ -9,6 +9,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 li{
     
     list-style: none;
@@ -19,7 +21,7 @@ li{
     }
 
     a:hover{
-        color: #69bf14;
+        color: $Lima;
     }
 }
 </style>

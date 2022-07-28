@@ -93,8 +93,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 section{
-    background-color: white;
+    background-color: $Bianco;
 }
 .ms_box{
     width: 300px;

@@ -17,8 +17,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../css/variables.scss";
+
 footer{
-  background-color: #69bf14;
+  background-color: $Lima;
   padding-top: 10px;
 }
 </style>

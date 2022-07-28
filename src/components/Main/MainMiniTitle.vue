@@ -8,6 +8,10 @@ props: ["miniTitle"]
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../../css/variables.scss";
 
+.ms_titolino{
+    color: $SilverChalice;
+}
 </style>

@@ -8,6 +8,11 @@ props: ["title"]
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../../css/variables.scss";
+
+.ms_title{
+    color: $Lima;
+}
 
 </style>

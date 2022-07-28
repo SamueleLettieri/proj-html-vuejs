@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 section{
     padding: 200px;
     background-image: url(../../assets/img/avada-movers-movewithease-background-new.jpg);
@@ -33,9 +35,9 @@ section{
 }
 
 .ms_background-lima{
-    background-color: #69bf14;
+    background-color:$Lima;
     border: 15px solid #559910;
-    color: white;
+    color: $Bianco;
     width: 500px;
 }
 h6{

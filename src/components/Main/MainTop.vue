@@ -25,9 +25,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 section{
     padding: 100px;
-    background-color: #e9e9e9; 
+    background-color: $GrigioChiaro; 
 }
 
 .ms_box{

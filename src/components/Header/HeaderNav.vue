@@ -15,6 +15,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 li{
     margin-left: 20px;
     margin-right: 20px;
@@ -27,12 +29,12 @@ li{
     }
 
     a:hover{
-        color: #69bf14;
+        color: $Lima;
     }
 }
 
 .ms_active{
-    color: #69bf14;
+    color: $Lima;
 }
 
 </style>

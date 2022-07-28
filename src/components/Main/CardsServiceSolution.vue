@@ -19,6 +19,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 .ms_box{
     width: 330px;
     margin-left: 20px;
@@ -32,7 +34,7 @@ export default {
 }
 
 h4{
-    color:  #1975c0;;
+    color: $Denim;
 }
 
 </style>

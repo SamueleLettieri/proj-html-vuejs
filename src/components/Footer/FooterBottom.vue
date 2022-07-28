@@ -1,10 +1,10 @@
 <template>
   <section class="p-4">
     <div class="container text-center">
-        <p><a class="ms_info" href="#"> © Copyright 2021-2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress </a></p>
+        <p><a class="ms_info" href="#"  @click.prevent=""> © Copyright 2021-2020 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress </a></p>
         <IconProject/>
     </div>
-    <div class="text-end"><a class="ms_still" href="#header">˄</a></div>
+    <div class="text-end"><a class="ms_still" href="#header" >˄</a></div>
   </section>
 </template>
 
@@ -18,17 +18,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 section{
     position: relative;
 }
 p{
     font-size: 12px;
-    color: white;
+    color: $Bianco;
 }
 
 .ms_info{
     text-decoration: none;
-    color: white;
+    color: $Bianco;
 }
 
 .ms_still{
@@ -36,8 +38,8 @@ p{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     text-decoration: none;
-    color: white;
-    background-color: #262727;
+    color: $Bianco;
+    background-color: $Shark;
     position: absolute;
     bottom: 0px;
     right: 65px;

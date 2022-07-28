@@ -1,7 +1,7 @@
 <template>
   <section id="header" class="p-2 ms_background-green">
     <div class="container d-flex justify-content-between">
-      <div class="ms_font"><a class="ms_color-white" href=""><i class="fa-solid fa-phone-flip"></i> Call us a free Quote: 1.800.555.6789</a></div>
+      <div class="ms_font"><a class="ms_color-white" href=""  @click.prevent=""><i class="fa-solid fa-phone-flip"></i> Call us a free Quote: 1.800.555.6789</a></div>
       <IconProject/>
     </div>
   </section>
@@ -18,8 +18,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 .ms_background-green{
-  background-color: #69bf14;
+  background-color: $Lima;
 }
 
 .ms_font{
@@ -31,6 +33,6 @@ a{
 }
 
 .ms_color-white{
-  color: white;
+  color: $Bianco;
 }
 </style>

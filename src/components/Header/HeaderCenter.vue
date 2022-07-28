@@ -78,6 +78,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../../css/variables.scss";
+
 .ms_jumbotron{
     background-image: url(../../assets/img/avada-movers-homeherobackground-final.jpg);
     background-size: cover;
@@ -96,11 +98,11 @@ h1{
 
 h6{
     font-size: 12px;
-    color: #93989b;
+    color: $OsloGray;
 }
 
 .ms_active{
-    color: #69bf14;
+    color: $Lima;
 }
 
 </style>

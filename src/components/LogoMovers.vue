@@ -1,5 +1,5 @@
 <template>
-  <div><a href="#"><img src="../assets/img/avada-movers-logo.png" alt=""></a></div>
+  <div><a href="#"  @click.prevent=""><img src="../assets/img/avada-movers-logo.png" alt=""></a></div>
 </template>
 
 <script>
