@@ -7,7 +7,8 @@
                 <h1 class="fw-bold">Move With Ease</h1>
                 <hr>
                 <p class="mt-4">Whith our super simple service we can take you from getting a quotes, right through to being in your new home with all of your belongings securely packed and safely delivered, even in the rooms of your choice.</p>
-                <div class="ms_box-link mt-4"><a class="ms_link fw-bold" href="#">GET A FREE QUOTE NOW</a></div>
+
+                <BtnProject class="mt-4" btnLink="GET A FREE QUOTE NOW"/>
             </div>
         </div>
     </div>
@@ -15,8 +16,9 @@
 </template>
 
 <script>
+import BtnProject from '../BtnProject.vue';
 export default {
-
+    components: { BtnProject }
 }
 </script>
 

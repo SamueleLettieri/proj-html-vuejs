@@ -1,22 +1,28 @@
 <template>
   <section>
     <div class="container text-center">
-        <h6 class="fw-bold">HAPPY CUSTOMERS</h6>
-        <h1 class="fw-bold ms_title">Testimonials</h1>
+        <MainMiniTitle miniTitle="HAPPY CUSTOMERS"/>
+        <MainTitle title="Testimonials"/>
         <div>
             <CardsTestimonials v-for="(card ,index) in testimonials" :key="index" :card="card"/>
         </div>
-        <div class="ms_box-link mt-5"><a class="ms_link fw-bold" href="#">READ MORE TESTIMONIALS</a></div>
+        <BtnProject class="mt-5" btnLink="READ MORE TESTIMONIALS"/>
     </div>
   </section>
 </template>
 
 <script>
 import CardsTestimonials from './CardsTestimonials.vue';
+import BtnProject from '../BtnProject.vue';
+import MainMiniTitle from './MainMiniTitle.vue';
+import MainTitle from './MainTitle.vue';
 export default {
     components: {
-        CardsTestimonials 
-    },
+    CardsTestimonials,
+    BtnProject,
+    MainMiniTitle,
+    MainTitle
+},
 
     data: function(){
         return{

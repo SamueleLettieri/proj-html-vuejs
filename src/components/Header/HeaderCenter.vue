@@ -7,7 +7,7 @@
                 <ul class="d-inline-block">
                     <HeaderNav v-for="item in NavItem" :key="item.id" :item="item"/>
                 </ul>
-                <BtnProject btnLink='FREE QUOTE'/>
+                <BtnProject btnLink="FREE QUOTE"/>
             </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center ms_box">
@@ -22,20 +22,19 @@
 
 <script>
 import HeaderNav from './HeaderNav.vue';
-import BtnProject from '../BtnProject.vue';
 import LogoMovers from '../LogoMovers.vue';
+import BtnProject from '../BtnProject.vue';
 
 export default {
     name: "CenterHeader",
     components: {
     HeaderNav,
-    BtnProject,
     LogoMovers,
+    BtnProject
 },
 
     data: function(){
         return{
-            btnLink:"",
             NavItem:[
                 {
                   items: "Home",

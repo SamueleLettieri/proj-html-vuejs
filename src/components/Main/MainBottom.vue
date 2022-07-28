@@ -2,17 +2,22 @@
   <section>
     <div class="container">
         <div class="text-center ms_box">
-            <h1 class="fw-bold ms_title">Request A Free Quote</h1>
+            <MainTitle title="Request A Free Quote"/>
             <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsam asperiores ratione error autem aut, eum fugiat, accusamus veniam iste pariatur tempora rem! Dolores, minus quaerat deleniti vero quod tempore?</p>
-            <div class="ms_box-link mt-4"><a class="ms_link fw-bold" href="#">CLICK HERE</a></div>
+            <BtnProject class="mt-4" btnLink="CLICK HERE"/>
         </div>
     </div>
   </section>
 </template>
 
 <script>
+import BtnProject from '../BtnProject.vue';
+import MainTitle from './MainTitle.vue';
 export default {
-
+    components: { 
+      BtnProject, 
+      MainTitle 
+    }
 }
 </script>
 

@@ -3,13 +3,17 @@
         <div class="ms_box-img text-center"><img class="w-100" :src="card.img" alt=""></div>
         <h4 class="mt-4 fw-bold">{{card.title}}</h4>
         <p class="mt-3">{{card.text}}</p>
-        <div class="ms_box-link mt-4 mb-4"><a class="ms_link fw-bold" :href="card.href">{{card.button}}</a></div>
+        <BtnProject class="pb-4" btnLink="READ MORE"/>
     </div>   
 </template>
 
 <script>
+import BtnProject from '../BtnProject.vue';
 export default {
-    props:["card"]
+    props: ["card"],
+    components: {
+         BtnProject 
+        }
 }
 
 </script>
