@@ -1,5 +1,5 @@
 <template>
-  <section class="p-5">
+  <section class="p-5 mt-1">
     <div class="container d-flex">
         <div class="ms_box mx-5">
             <h6 class="fw-bold">ABOUT</h6>
@@ -10,7 +10,7 @@
             <div>
                 <h6 class="fw-bold mb-4">AVADA MOVERS</h6>
                 <ul>
-                    <FooterAvadaMovers v-for="(linkAvada, index) in linksAvadaMovers" :key="index" :linkAvada="linkAvada"/>
+                    <FooterAvadaMovers v-for="linkAvada in linksAvadaMovers" :key="linkAvada.id" :linkAvada="linkAvada"/>
                 </ul>
             </div>
              <div>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import LogoMovers from './LogoMovers.vue';
+import LogoMovers from '../LogoMovers.vue';
 import FooterAvadaMovers from './FooterAvadaMovers.vue';
 import FooterRecentPosts from './FooterRecentPosts.vue';
 export default {
@@ -41,22 +41,27 @@ export default {
                 {
                     text:"Home",
                     url:"#",
+                    id: 0,
                 },
                 {
                     text:"Rates",
                     url:"#",
+                    id: 1,
                 },
                 {
                     text:"Testimonials",
                     url:"#",
+                    id: 2,
                 },
                 {
                     text:"Blog",
                     url:"#",
+                    id: 3,
                 },
                 {
                     text:"Free Quote",
                     url:"#",
+                    id: 4,
                 },
             ],
 

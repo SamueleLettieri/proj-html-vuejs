@@ -2,12 +2,12 @@
   <section class="ms_jumbotron pt-4">
     <div class="container ms_box">
         <div class="d-flex justify-content-between">
-            <div><img src="../assets/img/avada-movers-logo.png" alt=""></div>
+            <LogoMovers/>
             <div>
                 <ul class="d-inline-block">
-                    <HeaderNav v-for="(item, index) in NavItem" :key="index" :item="item"/>
+                    <HeaderNav v-for="item in NavItem" :key="item.id" :item="item"/>
                 </ul>
-                <div class="d-inline-block ms_box-link fw-bold"><a class="ms_link" href="#">FREE QUOTE</a></div>
+                <BtnProject btnLink='FREE QUOTE'/>
             </div>
         </div>
         <div class="d-flex flex-column justify-content-center align-items-center ms_box">
@@ -22,53 +22,65 @@
 
 <script>
 import HeaderNav from './HeaderNav.vue';
+import BtnProject from '../BtnProject.vue';
+import LogoMovers from '../LogoMovers.vue';
+
 export default {
     name: "CenterHeader",
     components: {
-        HeaderNav 
-    },
+    HeaderNav,
+    BtnProject,
+    LogoMovers,
+},
 
     data: function(){
         return{
+            btnLink:"",
             NavItem:[
                 {
                   items: "Home",
                   url: "#",
+                  id: 0,
                 },
 
                 {
                   items:"Rates",
                   url: "#",
+                  id: 1,
                 }, 
 
                 {
                   items:"Testimonials",
                   url: "#",
+                  id: 2,
                 }, 
 
                 {
                   items:"FAQ",
                   url: "#",
+                  id: 3,
                 }, 
 
                 {
                   items:"Blog",
                   url: "#",
+                  id: 4,
                 },
 
                 {
                   items:"Contact",
                   url: "#",
+                  id: 6,
                 },
             ]
         }
-    }
+    },
 }
 </script>
 
 <style lang="scss" scoped>
 .ms_jumbotron{
-    background-image: url(../assets/img/avada-movers-homeherobackground-final.jpg);
+    background-image: url(../../assets/img/avada-movers-homeherobackground-final.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
@@ -86,6 +98,10 @@ h1{
 h6{
     font-size: 12px;
     color: #93989b;
+}
+
+.ms_active{
+    color: #69bf14;
 }
 
 </style>

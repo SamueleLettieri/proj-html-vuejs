@@ -1,5 +1,5 @@
 <template>
-  <section class="p-2 ms_background-green">
+  <section id="header" class="p-2 ms_background-green">
     <div class="container d-flex justify-content-between">
       <div class="ms_font"><a class="ms_color-white" href=""><i class="fa-solid fa-phone-flip"></i> Call us a free Quote: 1.800.555.6789</a></div>
       <IconProject/>
@@ -8,11 +8,12 @@
 </template>
 
 <script>
-import IconProject from "./IconProject.vue";
+import IconProject from '../IconProject.vue';
+
 export default {
     components: {
-      IconProject 
-    }
+    IconProject
+}
 }
 </script>
 

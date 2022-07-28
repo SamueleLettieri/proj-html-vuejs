@@ -1,7 +1,7 @@
 <template>
   <section class="p-5">
     <div class="container">
-        <h6 class="text-center"><a href="#"><img src="../assets/img/paper-plane.png" alt=""> GET A FREE QUOTE ONLINE NOW</a></h6>
+        <h6 class="text-center"><a href="#"><img src="../../assets/img/paper-plane.png" alt=""> GET A FREE QUOTE ONLINE NOW</a></h6>
     </div>
   </section>
 </template>

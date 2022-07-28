@@ -1,5 +1,5 @@
 <template>
-  <div><img src="../assets/img/avada-movers-logo.png" alt=""></div>
+  <div><a href="#"><img src="../assets/img/avada-movers-logo.png" alt=""></a></div>
 </template>
 
 <script>

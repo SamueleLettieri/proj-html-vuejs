@@ -22,17 +22,17 @@ export default {
         return{
             testimonials:[
                 {
-                    image: require("../assets/img/avada-movers-johndoe-final.jpg"),
+                    image: require("../../assets/img/avada-movers-johndoe-final.jpg"),
                     name: "John Doe",
                     text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
                 {
-                    image: require("../assets/img/avada-movers-janedoe-final.jpg"),
+                    image: require("../../assets/img/avada-movers-janedoe-final.jpg"),
                     name: "Jane Doe",
                     text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
                 {
-                    image: require("../assets/img/avada-movers-johnsmith-final.jpg"),
+                    image: require("../../assets/img/avada-movers-johnsmith-final.jpg"),
                     name: "John Smith",
                     text:'"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente dolor natus architecto fugit numquam magnam aut cumque est necessitatibus."'
                 },
@@ -45,7 +45,7 @@ export default {
 <style lang="scss" scoped>
 section{
     padding: 100px;
-    background-image: url(../assets/img/avada-movers-testimonial-background.jpg);
+    background-image: url(../../assets/img/avada-movers-testimonial-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scoped>
 section{
     padding: 100px;
-    background-image: url(../assets/img/avada-movers-request-quote-background.jpg);
+    background-image: url(../../assets/img/avada-movers-request-quote-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
