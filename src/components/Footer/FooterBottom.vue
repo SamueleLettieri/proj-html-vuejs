@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import IconProject from '../IconProject.vue';
+import IconProject from '../Generals/IconProject.vue';
 export default {
     components: { 
         IconProject 

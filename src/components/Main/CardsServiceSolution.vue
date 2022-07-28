@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import BtnProject from '../BtnProject.vue';
+import BtnProject from '../Generals/BtnProject.vue';
 export default {
     props: ["card"],
     components: {

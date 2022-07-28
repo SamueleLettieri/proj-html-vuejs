@@ -22,8 +22,9 @@
 
 <script>
 import HeaderNav from './HeaderNav.vue';
-import LogoMovers from '../LogoMovers.vue';
-import BtnProject from '../BtnProject.vue';
+import LogoMovers from '../Generals/LogoMovers.vue';
+import BtnProject from '../Generals/BtnProject.vue';
+
 
 export default {
     name: "CenterHeader",

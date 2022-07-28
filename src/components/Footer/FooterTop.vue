@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import LogoMovers from '../LogoMovers.vue';
+import LogoMovers from '../Generals/LogoMovers.vue';
 import FooterAvadaMovers from './FooterAvadaMovers.vue';
 import FooterRecentPosts from './FooterRecentPosts.vue';
 export default {

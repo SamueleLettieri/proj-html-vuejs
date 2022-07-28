@@ -9,7 +9,7 @@ props: ["btnLink"]
 </script>
 
 <style lang="scss" scoped>
-@import "../css/variables.scss";
+@import "../../css/variables.scss";
 
 .ms_box-link{
     margin-left: 20px;

@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import BtnProject from '../BtnProject.vue';
+import BtnProject from '../Generals/BtnProject.vue';
 import MainTitle from './MainTitle.vue';
 export default {
     components: { 

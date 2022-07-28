@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import BtnProject from '../BtnProject.vue';
+import BtnProject from '../Generals/BtnProject.vue';
 import MainMiniTitle from './MainMiniTitle.vue';
 import MainTitle from './MainTitle.vue';
 export default {

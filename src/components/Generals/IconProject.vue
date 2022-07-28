@@ -9,7 +9,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../css/variables.scss";
+@import "../../css/variables.scss";
 
 a{
   text-decoration: none;
